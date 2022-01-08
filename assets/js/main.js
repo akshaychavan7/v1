@@ -144,10 +144,10 @@
 	};
 
 	var clickMenu = function() {
-
+		alert('clicked');
+		console.log('clicked');
+			
 		$('#navbar a:not([class="external"])').click(function(event){
-			alert('clicked');
-			console.log('clicked');
 			var section = $(this).data('nav-section'),
 				navbar = $('#navbar');
 
@@ -166,8 +166,6 @@
 		    event.preventDefault();
 		    return false;
 		});
-
-
 	};
 
 	// Reflect scrolling in navigation
