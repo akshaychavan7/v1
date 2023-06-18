@@ -1,9 +1,7 @@
 $(document).ready(()=>{
 	if($(window).width()>768) {
-		console.log('1111');
 		$('#nav-close-btn').hide();
 	} else {
-		console.log('2222');
 		$('#nav-close-btn').show();
 	}
 	
